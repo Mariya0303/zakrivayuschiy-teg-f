@@ -291,7 +291,7 @@
   background-color: var(--background-color, #fff);
 }
 
-@media (width <= 375px){
+@media (width <= 375px) {
   .memory-button {
     flex-direction: column;
   }

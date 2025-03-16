@@ -65,12 +65,8 @@
     --heart-contour-color: #f00;
     --heart-body-color: #f00;
     --heart-core-color: #f00;
-  }
-  
-  .is-liked {
     animation:
-      explosion-heart .3s ease-in .1s 1 normal,
-      sparks-heart .3s ease-in .3s 1 normal;
+    explosion-heart .3s ease-in .1s 1 normal,
+    sparks-heart .3s ease-in .3s 1 normal;
     transform-origin: center;
   }
-
