@@ -120,7 +120,7 @@
 /*ФИЛЬТРЫ*/
 
 .filter-blur {
-  filter: blur(7px);
+  filter: blur(7px) brightness(1.5);
 }
 .filter-grayscale {
   filter: grayscale(1);
