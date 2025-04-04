@@ -9,7 +9,7 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@keyframes pointer-shift {
+@keyframes hover-heart {
     from {
       left: -20px;
     }
@@ -19,7 +19,7 @@
     }
   }
   
-  @keyframes explosion-heart {
+  @keyframes flash-heart {
     from {
       transform: scale(1);
     }
