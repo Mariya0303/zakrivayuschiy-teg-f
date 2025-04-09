@@ -93,7 +93,7 @@
 
 .figure_caption {
   position: absolute;
-  inset-block-start: 1.5625rem;
+  inset-block-start: 1.3rem;
   inset-inline-end: clamp(0.6875rem, -0.3221rem + 4.3077vw, 1.5625rem);
   font-size: 0.875rem;
   font-family: var(--accent-font), sans-serif;
@@ -247,8 +247,8 @@
 .card__icon-button {
   background-color: var(--background-color, #fff);
   border: 0.125rem solid transparent;
-  inline-size: 39px;
-  block-size: 36px;
+  inline-size: 38px;
+  block-size: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,8 +283,8 @@
   }
 
   .modal {
-    min-inline-size: 21.3125rem;
-    padding-inline: 2.515rem;
+    max-inline-size: 21.3125rem;
+    padding-inline: 2.5rem;
   }
 
   .memory-icon {
